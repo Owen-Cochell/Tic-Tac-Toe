@@ -1,6 +1,6 @@
 # Tic-Tac-Toe
 A simple Tic-Tac-Toe game written in python.
-This Tic-Tac-Toe is "importable freindly", which means that you can easly implement it into your code!
+This Tic-Tac-Toe game is "importable freindly", which means that you can easly implement it into your code!
 Want to allow a user to play of game of Tic-Tac-Toe while your script works away? Now you can!
 Just keep the tictac.py file in the same direcory as your script, and call:
 >from tictac import *

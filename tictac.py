@@ -208,6 +208,8 @@ def checkVertWin(b, letter, playLetter):
 
 def checkVet(b):
 
+    #Code for diagonal three in a row
+    
     for i in range(len(b)):
 
         for j in range(len(b)):
@@ -284,8 +286,6 @@ def compPlan(b, letter):
 
             if boardCheck(b, i, j):
 
-                print("Valid move!")
-                print("{} {}".format(i, j))
                 boardUpdate(b, i, j, letter)
                 return True
 
@@ -444,7 +444,7 @@ def ticStart():
 
         #Getting input from user and cleaning it up
 
-        col = int(input("Please enter a collum number:"))
+        col = int(input("\nPlease enter a collum number:"))
         row = int(input("Please enter a row number:"))
 
         col -= 1
@@ -462,6 +462,7 @@ def ticStart():
 
                 boardDisplay(board)
                 print("\nCongrats you win!")
+                empty = input("Press enter to continue...")
                 break
 
         else:
@@ -477,6 +478,7 @@ def ticStart():
 
             boardDisplay(board)
             print("Cat's game. Nobody wins!")
+            empty = input("Press enter to continue...")
             break
 
         print("\nComputer's move...\n")
@@ -489,6 +491,7 @@ def ticStart():
 
             boardDisplay(board)
             print("\nYou lose :(")
+            empty = input("Press enter to continue...")
             break
 
 ticStart()

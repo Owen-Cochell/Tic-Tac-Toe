@@ -16,9 +16,11 @@ To run this file, you will need to have python installed. On linux, you can use 
 
 Windows users can install it [here](https://www.python.org/downloads/release/python-371/).
 
-This script uses no 3rd party modules, and it uses the terminal to dislay information. This means that their is no extra configuration necessary, just download and go!
+This script uses no 3rd party modules, and it uses the terminal to display information. This means that their is no extra configuration necessary, just download and go!
 
 In this script, the player will be put up against a computer. It uses a incredibly simple algorithm to determine what moves to make next.
+
+You can use threading or multiproccessing to run Tic-Tac-Toe and your process at the same time! PLease refer to the python documentation for more info!
 
 If you have any questions or comments, please feel free to open an issue. I will reply as soon as I can.
 

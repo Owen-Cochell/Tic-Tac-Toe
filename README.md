@@ -2,10 +2,6 @@
 A simple Tic-Tac-Toe game written in python.
 This Tic-Tac-Toe game is "importable freindly", which means that you can easly implement it into your code!
 Want to allow a user to play of game of Tic-Tac-Toe while your script works on a time consuming task? Now you can!
-Just keep the tictac.py file in the same direcory as your script, and call:
->from tictac import *
-
-And play away!
 
 # Prerequisites
 
@@ -16,7 +12,21 @@ To run this file, you will need to have python installed. On linux, you can use 
 
 Windows users can install it [here](https://www.python.org/downloads/release/python-371/).
 
-This script uses no 3rd party modules, and it uses the terminal to display information. This means that their is no extra configuration necessary, just download and go!
+# Usage
+
+1. Keep the 'tictac.py' file in the same working directory as your script
+
+2. Import the 'tictac.py' file, like so:
+
+> from tictac import *
+
+3. When you are ready to start a game, call the 'ticStart()' method in your code(no parameters), like so:
+
+> ticStart()
+
+# Other Info
+
+This script has no third-party modules, and it uses the terminal to display information. This means that there is no extra configuration necessary, just download and go!
 
 In this script, the player will be put up against a computer. It uses a incredibly simple algorithm to determine what moves to make next.
 

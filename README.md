@@ -8,9 +8,11 @@ Want to allow a user to play of game of Tic-Tac-Toe while your script works on a
 To run this file, you will need to have python installed. On linux, you can use your package manager to install. Example:
 >apt-get install python3
 
-(This command will work on Debian based systems only)
+Or on other systems(Non debian based):
+>brew install python3
 
-Windows users can install it [here](https://www.python.org/downloads/release/python-371/).
+
+Window users can install it [here](https://www.python.org/downloads/release/python-371/).
 
 # Usage
 

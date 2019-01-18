@@ -493,5 +493,3 @@ def ticStart():
             print("\nYou lose :(")
             empty = input("Press enter to continue...")
             break
-
-ticStart()
